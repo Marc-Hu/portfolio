@@ -1586,41 +1586,6 @@ hr.ruler {
     .flex-control-nav {
         bottom: 7%!important;
     }
-    #bigslider {
-        width: 100%;
-        overflow: hidden;
-    }
-    #bigslider .flex-caption {
-        font-size: 15px;
-        line-height: 22px;
-        width: 390px;
-        height: auto;
-        padding: 15px;
-    }
-    #bigslider .flex-caption h2 {
-        font-size: 25px;
-        line-height: 30px;
-        font-weight: 100;
-    }
-    #bigslider .flex-caption a.btn {
-        font-size: 20px;
-        font-weight: 400;
-    }
-    #bigslider .flex-caption h5 {
-        font-size: 14px;
-        line-height: 20px;
-        margin: 0px;
-    }
-    #bigslider li img {
-        max-width: none;
-        width: auto;
-        height: 480px;
-        margin-left: -200px;
-    }
-    #work_slider .flex-direction-nav a {
-        opacity: 1;
-        z-index: 2;
-    }
     h2.work_title {
         font-size: 14px;
     }
@@ -1860,55 +1825,11 @@ hr.ruler {
         margin: 0px;
         text-align: center;
     }
-    #bigslider .flex-caption {
-        width: 290px;
-        left: 5%;
-        top: 30%;
-    }
-    #logo {
-        left: 40.5%;
-        top: 50%;
-    }
     ul.home_quotes li h4 {
         font-size: 26px;
     }
-    .social-icons.about {
-        display: inline-block;
-        margin: 5px auto 25px auto;
-        float: none;
-    }
-    .service_block {
-        width: 180px;
-        height: 180px;
-    }
-    .service_block img {
-        width: 90px;
-    }
     #timeline {
         width: 300px;
-    }
-    ul.partner_logos {
-        width: 235px;
-    }
-    ul.partner_logos li {
-        padding: 5px 20px;
-    }
-    #issues,
-    #issues li {
-        width: 224px;
-    }
-    #issues li h3 {
-        font-size: 15px;
-        margin: 12px 0px;
-    }
-    #work_slider li iframe {
-        height: 170px;
-    }
-    #work_showcase li .work_info a.plus {
-        margin-top: -17px;
-    }
-    #work_showcase li .work_info h5 {
-        font-size: 12px;
     }
 }
 
@@ -1920,33 +1841,4 @@ hr.ruler {
 body {
     font-family: sans-serif;
     background: #e1e1e1;
-}
-
-.card {
-    float: left;
-    background: #fff;
-    padding: 20px;
-    margin: 0 20px 0 0;
-}
-
-// Donut Chart Mixin
-.donut-chart {
-    position: relative;
-    border-radius: 50%;
-    overflow: hidden;
-    .slice {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .chart-center {
-        position: absolute;
-        border-radius: 50%;
-        span {
-            display: block;
-            text-align: center;
-        }
-    }
 }
