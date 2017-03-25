@@ -55,7 +55,6 @@ section .container {
 }
 
 
-
 /*Home Banner*/
 
 #home_banner {
@@ -122,8 +121,6 @@ ul.home_quotes li h4 {
 }
 
 
-
-
 /* A propos */
 
 #about {
@@ -154,6 +151,29 @@ ul.home_quotes li h4 {
     text-decoration: none;
     color: white;
     padding-top: 10px;
+}
+
+.CV {
+    background: cadetblue;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    float: right;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.CV:hover {
+    background: deepskyblue;
+}
+
+#work_showcase li {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
 }
 
 
@@ -403,7 +423,7 @@ ul.home_quotes li h4 {
     height: 100px;
 }
 
-.conForm .submitBnt {
+.submitBnt {
     background: cadetblue;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
@@ -414,7 +434,7 @@ ul.home_quotes li h4 {
     margin: 0px;
 }
 
-.conForm .submitBnt:hover {
+.submitBnt:hover {
     background: deepskyblue;
 }
 
@@ -650,7 +670,6 @@ section#services h4 {
 }
 
 
-
 /*Our Clients*/
 
 .parallax_bg {
@@ -676,8 +695,6 @@ section#services h4 {
 #work .container {
     padding-bottom: 0px;
 }
-
-
 
 @-webkit-keyframes rotate {
     from {
@@ -792,11 +809,9 @@ hr.ruler {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1048px) {
-    
     #clients .twelve {
         margin: 0px 20px;
     }
-    
     ul.home_quotes li h4 {
         font-size: 60px;
     }
@@ -824,19 +839,16 @@ hr.ruler {
     #services .one-third.column {
         width: 720px;
     }
-    
     nav ul.primary_nav li a {
         padding: 34px 12px;
     }
     ul.home_quotes li h4 {
         font-size: 50px;
     }
-    
     #services .service_block {
         margin-left: auto;
         margin-right: auto;
     }
-    
 }
 
 
@@ -877,31 +889,27 @@ hr.ruler {
         width: 189px;
         margin: 0px 15px;
     }
-    
     #arrow_more {
         left: 45%;
     }
     ul.home_quotes li h4 {
         font-size: 32px;
     }
-    
     .flex-control-nav {
         bottom: 7%!important;
     }
     h2.work_title {
         font-size: 14px;
     }
-    
     .services_col p,
     .services_col strong {
         font-size: 13px;
         line-height: 19px;
     }
-    
     #services .service_block {
         margin-left: auto;
         margin-right: auto;
-    }    
+    }
     .caroufredsel_wrapper {
         height: auto!important;
     }
