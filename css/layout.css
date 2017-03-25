@@ -1303,20 +1303,8 @@ hr.ruler {
 
 #to_top {
     position: absolute;
-    left: 49.4%;
-    bottom: 30px;
-    width: 17px;
-    height: 24px;
-    background: url(../images/to_top.png) no-repeat center;
-    transition: bottom 700ms ease-in-out 0s;
-}
-
-#to_top.hiding {
-    bottom: -100px;
-}
-
-#to_top a {
-    color: white;
+    margin-left: 49.4%;
+    margin-top: 50px;
 }
 
 
