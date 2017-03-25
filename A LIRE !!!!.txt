@@ -1,0 +1,1 @@
+Ne pas tester sur votre disque dur, l'upload sur un serveur est obligatoire pour assurer le bon fonctionnement de ce template
