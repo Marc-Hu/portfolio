@@ -351,11 +351,6 @@ ul.home_quotes li h4 {
 
 /*PortFolio*/
 
-section#real {
-    background-image: url(../images/realisation.jpg);
-    background-color: #32526E;
-}
-
 .titreProjet {
     color: white;
     text-align: center;
@@ -718,6 +713,7 @@ section#services h4 {
 
 /*Contact*/
 
+#real,
 #contact {
     background-image: url(../images/contact_bg.jpg);
     background-color: #f8f8f8;
