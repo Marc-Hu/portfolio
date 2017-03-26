@@ -57,6 +57,9 @@ $(window).load(function() {
 
 
 
+
+
+
     /*Window Resize*/
     if ($(window).width() < 700) {
         $('nav ul.primary_nav li a').click(function() {
@@ -447,6 +450,7 @@ $(function() {
     });
 
 });
+
 
 /*----------------------------------------------------*/
 /*	Preloader

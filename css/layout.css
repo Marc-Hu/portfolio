@@ -459,9 +459,6 @@ ul.home_quotes li h4 {
     .aboutme img {
         width: 100%;
     }
-    ul.portfolioContainer li.col-xs-6 {
-        width: 100%;
-    }
     .bntDownload {
         font-size: 13px;
         padding: 16px 14px;
@@ -725,7 +722,7 @@ hr.ruler {
 #to_top {
     position: absolute;
     margin-left: 49.4%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
