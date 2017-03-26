@@ -675,6 +675,7 @@ section#services h4 {
     background-size: cover !important;
 }
 
+#loisir,
 #clients {
     background-image: url(../images/clients_bg.jpg);
     background-color: #f8f8f8;
